@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="deco.css">
+
+</head>
+
+<body>
+    <div id="parent">
+        <div id="outbox">
+            <label for="filteritbyModel">FILTER BY MODEL:</label>
+            <select id="filteritbyModel">
+                <option value="" id="option">Options</option>
+                <option value="Sedan" class="find">Sedan</option>
+                <option value="SUV" class="find">SUV</option>
+                <option value="Hatch-back" class="find">Hatch-back</option>
+                <option value="Family-wagan" class="find">Family-wagan</option>
+                <option value="Convertable" class="find">Convertable</option>
+
+            </select>
+            <button id="filterButton">PREFER</button>
+            <table id="modeltab" border="5">
+
+                <thead>
+                    <tr>
+                        <th class="head">ID</th>
+                        <th class="head">CAR Name</th>
+                        <th class="head">Price(in lac)</th>
+                        <th class="head">Model</th>
+                        <th class="head">Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                </tbody>
+            </table>
+            <script src="table.js"></script>
+        </div>
+        <img src="bmwmm.png" alt="BMW">
+        <h3 id="own">MODIFY THE TABLE</h3>
+        <div id="cud">
+            <button title="create your own model" class="incud" id="create">CREATE</button>
+            <button title="modify the existing table" class="incud" id="update">UPDATE</button>
+            <button title="remove the unwanted " class="incud" id="delete">DELETE</button>
+        </div>
+        <div id="inVal">
+            <label for="CARName">CAR Name:</label>
+            <input type="text" id="CARName" name="CARName">
+            <label for="Price(in lac)">Price(in lac):</label>
+            <input type="number" id="Price" name="Price">
+            <select id="selectitbyModel">
+                <option value="" id="option">Options</option>
+                <option value="Sedan" class="find">Sedan</option>
+                <option value="SUV" class="find">SUV</option>
+                <option value="Hatch-back" class="find">Hatch-back</option>
+                <option value="Family-wagan" class="find">Family-wagan</option>
+                <option value="Convertable" class="find">Convertable</option>
+            </select>
+
+        </div>
+        <button title="Once you are finished" id="bttn" onclick="newCar()">FINISHED </button>
+        <h1 class="wre">STOPWATCH (0-100)</h1>
+        <div id="stopwatch">00:00:00:000</div>
+        <!-- <button id="ddtt" title= "dont dare to touch">TO START </button> -->
+        <div id="divbbtt">
+            <button onclick="startStopwatch()" id="bbttsta">Start</button>
+            <button onclick="stopStopwatch()"  id="bbttsto">Stop</button>
+            <button onclick="resetStopwatch()" id="bbttres">Reset</button>
+            <script src="index.js"></script>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

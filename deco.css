@@ -1,0 +1,220 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.wre{
+    position: absolute;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(7, 93, 96);
+    border: 4px forestgreen dotted;
+    display: block;
+    margin-top: 7%;
+    padding-left: 30%;
+    padding-right: 31%;
+    font-style: italic;
+    width: 270px;
+    bottom: 200px;
+
+}
+/* #ddtt{
+    position: absolute;
+    background-color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    border: 3px solid double darkolivegreen;
+    margin-top: 20%;
+    margin-left: 30%;
+    width: 80px;
+    padding: 10px;
+} */
+#modeltab{
+    border: 3px solid firebrick;
+    color: rgb(45, 28, 6);
+    
+    align-self: center;
+}
+.head{
+    color: blueviolet;
+}
+#tablebody{
+    background-color: coral;
+}
+#outbox{
+    position: absolute;
+    background-color: aquamarine;
+    width: 370px;
+    height: 350px;
+    border: 3px double fuchsia;
+    
+}
+#filterButton{
+    
+    font-size: x-large;
+    font-family: monospace;
+    background-color: cyan;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+#option{
+    background-color: darkblue;
+}
+#filteritbyModel{
+    background-color: darkgoldenrod;
+}
+#selectitbyModel{
+    background-color: darkgoldenrod;
+}
+.find{
+    background-size: 20%;
+    background-color: rgb(226, 175, 104);
+    color:rgb(152, 92, 8) ;
+}
+#inVal{
+    border: 3px dashed black;
+    position: absolute;
+    top: 23%; 
+    left: 55%;
+    width: 200px; 
+    background-color: lightblue; 
+    padding: 10px;
+}
+#own{
+    position: absolute;
+    top: 20px; 
+    left: 55%;
+    margin-bottom: 0px;
+    font-size: x-large;
+    margin-left: 15px;
+    font-family:  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans',  sans-serif;
+}
+#parent{
+    position: relative;
+    border: 4px solid brown;
+    width: 700px;
+    background-color: chocolate;
+    height: 600px;
+}
+#bttn{
+    position: absolute;
+    top: 50%;
+    left: 56%;
+    font-size: xx-large;
+    color: darkgoldenrod;
+    font-family: cursive ;
+    border-bottom: 4px dashed rgb(156, 5, 156) ;
+    border-top: 4px dashed rgb(141, 25, 141) ;
+    border-left:4px dashed rgb(118, 36, 118) ;
+    border-right:4px dashed rgb(238, 89, 238) ;
+}
+.bbtt{
+    
+    background-color: darkmagenta;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+    bottom: 0px;
+    font-size: x-large;
+    right: 0px; 
+} 
+#stopwatch{
+    position: absolute;
+    font-size: xxx-large;
+    bottom:  130px;
+    color: rgb(18, 218, 22);
+    font-family: monospace;
+    border: 3px solid mediumseagreen;
+
+    right: 33%;
+}
+
+img{
+    position: absolute;
+    width: 100px;
+    height:  60px;
+    bottom: 0px;
+    right : 0px
+}
+#cud{
+    position: absolute;
+    right:  0px;
+    top: 10%;
+    margin-right: 5px;
+    border: 2px solid saddlebrown;
+    padding: 3px;
+}
+.incud{
+    padding: 10px;
+    font-family: Cambria, Cochin, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    font-size: larger;
+
+}
+#create{
+    border-right: 3px dotted rgb(94, 6, 6);
+    border-left: 3px dotted rgb(51, 7, 154);
+    border-top: 3px dashed rgb(13, 167, 16);
+    border-bottom: 3px dotted rgb(94, 6, 6);
+    background-color: rgb(48, 228, 48);
+}
+#update{
+    border-right: 3px dashed rgb(13, 167, 16);
+    border-left: 3px dashed rgb(13, 167, 16);
+    border-top: 3px dotted rgb(94, 6, 6);
+    border-bottom: 3px dashed rgb(13, 167, 16);
+    background-color: rgb(228, 228, 68);
+}
+#delete{
+    border-right: 3px dotted rgb(51, 7, 154);
+    border-left: 3px dotted rgb(94, 6, 6);
+    border-top: 3px dashed rgb(13, 167, 16);
+    border-bottom: 3px dotted rgb(94, 6, 6);
+    background-color: rgb(237, 50, 50);
+}
+#divbbtt{
+    position: absolute;
+    padding: 10px;
+    right:  30%;
+    bottom: 50px;
+    font-size: xx-large;
+    margin-right: 5px;
+    border: 5px solid saddlebrown;
+
+}
+#bbttsta{
+    font-size: x-large;
+    font-family: cursive;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 3px double rgb(217, 13, 13);
+    border-left: 3px double rgb(217, 13, 13);
+    border-top: 3px double rgb(217, 13, 13);
+    border-bottom: 3px double rgb(217, 13, 13);
+    background-color: rgb(8, 95, 8);
+}
+#bbttsto{
+    
+    font-size: x-large;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: cursive;
+    border-right: 3px double rgb(13, 167, 16);
+    border-left: 3px double rgb(13, 167, 16);
+    border-top: 3px double rgb(13, 167, 16);
+    border-bottom: 3px double rgb(13, 167, 16);
+    background-color: rgb(164, 10, 10);
+}
+#bbttres{
+    font-size: x-large;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: cursive;
+    border-right: 3px dashed rgb(13, 167, 16);
+    border-left: 3px dashed rgb(94, 6, 6);
+    border-top: 3px dashed rgb(13, 167, 16);
+    border-bottom: 3px dashed rgb(94, 6, 6);
+    background-color: rgb(6, 6, 148);
+}
+    
